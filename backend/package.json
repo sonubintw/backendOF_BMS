@@ -2,9 +2,9 @@
   "name": "bookmyshow",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "server" : "nodemon server",
+    "server" : "nodemon server.js",
     "start": "node server",
     "client":"npm start --prefix client",
     "project": "concurrently \"npm run server\" \"npm run client\"",
